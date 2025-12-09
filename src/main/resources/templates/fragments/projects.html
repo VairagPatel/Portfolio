@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">
+                    Explore some of my recent full-stack and AI-powered applications
+                </p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">InvoiceGen</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Data JPA</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                            <span class="project-tag">JWT</span>
+                        </div>
+                        <p class="project-description">
+                            Full-stack invoice management system with secure billing, PDF export, and email automation. Architected backend with Spring Boot + JPA secured by JWT, reducing form errors by 30% and billing support tickets by 15%.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/VairagPatel" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">LumiAI</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Stability AI API</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                            <span class="project-tag">JWT Auth</span>
+                            <span class="project-tag">Gemini API</span>
+                        </div>
+                        <p class="project-description">
+                            Full-stack AI-powered platform to generate Studio Ghibli–style artwork from text or image prompts. Integrated Stability AI via FeignClient with JWT authentication and role-based access control.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/VairagPatel" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Gemini Chatbot</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot WebFlux</span>
+                            <span class="project-tag">Google Gemini API</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">Reactive</span>
+                        </div>
+                        <p class="project-description">
+                            Streaming chatbot with a reactive backend and modern frontend. Implemented non-blocking backend with Spring Boot WebFlux, boosting concurrent request handling and throughput with real-time tokenized responses.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/VairagPatel" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

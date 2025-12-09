@@ -1,0 +1,95 @@
+<!-- fragments/hero.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi there, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Vairag Akbari</span></h1>
+                <h2 class="hero-subtitle">Full-Stack Developer & AI Enthusiast</h2>
+                <p class="hero-description">
+                    Computer Science student at Vellore Institute of Technology, Bhopal passionate about building scalable full-stack applications with Spring Boot and React. I love solving complex problems and creating innovative AI-powered solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="tel:+917016793012" class="social-link">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto:vairag.techwork@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/vairagakbari" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/VairagPatel" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Vairag0310/" target="_blank" class="social-link">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-link" title="CodeChef">
+                        <i class="fas fa-utensils"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-link" title="Codeforces">
+                        <i class="fas fa-laptop-code"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-link" title="X (Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="/images/profile.png" alt="Profile" style="width: 90%; height: 90%; object-fit: cover; border-radius: 15px;">
+                    </div>
+                    <div class="hero-visual-frame"></div>
+                    <div class="hero-visual-frame"></div>
+                </div>
+                <div class="hero-stats stats-1">
+                    <div class="hero-stats-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Student</div>
+                        <div class="hero-stats-value">VIT</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-2">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">LeetCode</div>
+                        <div class="hero-stats-value">Rank 1504</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-3">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">CGPA</div>
+                        <div class="hero-stats-value">8.34</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

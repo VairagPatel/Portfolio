@@ -1,0 +1,10 @@
+target/
+*.md
+.git/
+.idea/
+*.iml
+*.log
+RENDER_DEPLOYMENT_GUIDE.md
+IMAGE_UPDATE_INSTRUCTIONS.md
+CHANGES_SUMMARY.md
+UPDATES_COMPLETED.md

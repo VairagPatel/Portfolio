@@ -1,12 +1,9 @@
 services:
   - type: web
     name: vairag-portfolio
-    env: java
-    buildCommand: mvn clean install -DskipTests
-    startCommand: java -jar target/personalportfolio-0.0.1-SNAPSHOT.jar
+    env: docker
     plan: free
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: PORT
         value: 10000
-      - key: JAVA_OPTS
-        value: "-Xmx512m"

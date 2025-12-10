@@ -48,7 +48,20 @@ http://localhost:9090
 
 ## 🌐 Deployment
 
-### Railway Deployment
+### Render Deployment
+
+1. Push your code to GitHub
+2. Go to [Render Dashboard](https://dashboard.render.com/)
+3. Click "New +" → "Web Service"
+4. Connect your GitHub repository: `VairagPatel/Portfolio`
+5. Configure the service:
+   - **Name**: `vairag-portfolio`
+   - **Environment**: `Java`
+   - **Build Command**: `mvn clean install -DskipTests`
+   - **Start Command**: `java -jar target/personalportfolio-0.0.1-SNAPSHOT.jar`
+6. Deploy!
+
+### Railway Deployment (Alternative)
 
 1. Push your code to GitHub
 2. Connect your GitHub repository to Railway

@@ -29,15 +29,9 @@
 - **Root Directory**: Leave blank (uses root)
 
 **Build & Deploy:**
-- **Environment**: `Java`
-- **Build Command**: 
-  ```
-  mvn clean install -DskipTests
-  ```
-- **Start Command**: 
-  ```
-  java -jar target/personalportfolio-0.0.1-SNAPSHOT.jar
-  ```
+- **Environment**: `Docker`
+- **Dockerfile Path**: `./Dockerfile` (auto-detected)
+- Build and start commands are handled by Dockerfile
 
 **Plan:**
 - Select **"Free"** (0$/month, with limitations)
